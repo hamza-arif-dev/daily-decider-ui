@@ -1,40 +1,64 @@
-# Welcome to Remix!
+# Daily Decider App
 
-- 📖 [Remix docs](https://remix.run/docs)
+Welcome to the Daily Decider App! This application allows users to input a list of names and randomly selects a winner by spinning a virtual wheel.
 
-## Development
+## Features
 
-Run the dev server:
+- **User-Friendly Interface**: Easily add names to the list and spin the wheel to select a random winner.
+- **Real-Time Animation**: Enjoy a smooth spinning animation that enhances the user experience.
+- **Responsive Design**: Accessible on various devices, ensuring a seamless experience on both desktop and mobile platforms.
 
-```shellscript
-npm run dev
-```
+## Technologies Used
 
-## Deployment
+- **Frontend**: Built with [Remix](https://remix.run/), a React framework that provides a fast and efficient development experience.
+- **Styling**: Utilizes [Tailwind CSS](https://tailwindcss.com/) for streamlined and customizable styling.
+- **Build Tool**: Configured with [Vite](https://vitejs.dev/) for rapid development and optimized builds.
 
-First, build your app for production:
+## Getting Started
 
-```sh
-npm run build
-```
+To run the Daily Decider App locally:
 
-Then run the app in production mode:
+1. **Clone the Repository**:
 
-```sh
-npm start
-```
+   ```bash
+   git clone https://github.com/hamza-arif-dev/daily-decider-ui.git
+   cd daily-decider-ui
+   ```
 
-Now you'll need to pick a host to deploy it to.
+2. **Install Dependencies**:
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, install the necessary packages:
 
-### DIY
+   ```bash
+   npm install
+   ```
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+3. **Start the Development Server**:
+   Launch the app in development mode:
 
-Make sure to deploy the output of `npm run build`
+   ```bash
+   npm run dev
+   ```
 
-- `build/server`
-- `build/client`
+   The application will be accessible at `http://localhost:3000`.
 
-## Styling
+4. **Build for Production**:
+   To create an optimized production build:
+   ```bash
+   npm run build
+   ```
+   After building, you can start the production server:
+   ```bash
+   npm start
+   ```
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Thank you for using the Daily Decider App!
